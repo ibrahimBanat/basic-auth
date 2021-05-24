@@ -7,8 +7,8 @@ Deploy an Express server that implements Basic Authentication, with signup and s
 
 ## Tests & Deployment
 
-[Workflow Actions](https://github.com/ibrahimBanat/api-server/actions)\
-[deployment](https://api-server-dev.herokuapp.com/)
+[Workflow Actions](https://github.com/ibrahimBanat/basic-auth/actions)\
+[Heroku deployment](https://basic-auth-dev.herokuapp.com/)
 
 to start the test run:
 
@@ -92,3 +92,8 @@ last thing, use `npm start` to start the application.
 ## UML Diagram
 
 ![](./assets/basic-auth.png)
+
+## website verification
+
+![](./assets/signin.PNG)
+![](./assets/signup.PNG)

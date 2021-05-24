@@ -3,7 +3,12 @@
 const base64 = require('base-64');
 const bcrypt = require('bcrypt');
 const Users = require('../models/users-model');
-
+/**
+ *
+ * @param {Object} req Http request object and it's properties
+ * @param {Object} res Http request object and it's properties
+ * @param {*} next
+ */
 module.exports = async (req, res, next) => {
   try {
     let encoded = req.headers.authorization.split(' ')[1];
