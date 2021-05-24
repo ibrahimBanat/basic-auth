@@ -1,4 +1,4 @@
-<img src="./assets/api1.png" alt="Logo of the project" align="right" width="50px
+<img src="./assets/logo1.png" alt="Logo of the project" align="right" width="50px
 " height="50px" />
 
 # basic-auth &middot; [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/npm) [![Node Js](https://img.shields.io/npm/v/node?label=Node%20Js&style=plastic)](http://makeapullrequest.com) ![example branch parameter](https://github.com/github/docs/actions/workflows/node.js.yml/badge.svg?branch=main)
@@ -87,8 +87,8 @@ last thing, use `npm start` to start the application.
 
 ## Test Coverage
 
-![](./assets/api-server.PNG)
+![](./assets/basic-auth-test.PNG)
 
 ## UML Diagram
 
-![](./assets/basic-api-server.PNG)
+![](./assets/basic-auth.png)
