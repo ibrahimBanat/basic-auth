@@ -6,11 +6,11 @@ const usersSchema = mongoose.Schema({
   password: { type: String, required: true },
 });
 
-usersSchema.pre('save', async function () {
-  if (this.isModified('password')) {
-    this.password = await bcrypt.hash(this.password, 10);
-  }
-});
+// usersSchema.pre('save', async function () {
+//   if (this.isModified('password')) {
+//     this.password = await bcrypt.hash(this.password, 10);
+//   }
+// });
 
 // create a mongoose model
 const Users = mongoose.model('users', usersSchema);
