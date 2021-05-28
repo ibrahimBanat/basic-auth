@@ -8,8 +8,11 @@ const router = require('./auth/router');
 const notFoundHandler = require('./middleware/404');
 const errorHandler = require('./middleware/500');
 const cors = require('cors');
+const multer = require('multer');
+const multParse = multer();
 // prepare the express app
 const app = express();
+app.use(multParse.none());
 app.use(cors());
 // Process JSON input and put the data on req.body
 app.use(express.json());
