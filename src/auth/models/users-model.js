@@ -6,6 +6,7 @@ const usersSchema = mongoose.Schema({
   password: { type: String, required: true },
 });
 
+//this casues a bug in the tests
 // usersSchema.pre('save', async function () {
 //   if (this.isModified('password')) {
 //     this.password = await bcrypt.hash(this.password, 10);
